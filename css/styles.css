@@ -279,6 +279,16 @@ img {
 /*----PORTFOLIO-----*/
 
 /*----MAIN-----*/
+
+.all-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+.projects {
+  margin-right: 8px;
+}
 .projects {
   font-weight: 500;
   font-size: 16px;
