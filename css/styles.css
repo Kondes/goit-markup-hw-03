@@ -195,7 +195,7 @@ img {
 }
 .section-second {
   background: var(--other-color);
-  height: 648px;
+  padding-bottom: 124px;
 }
 .team {
   margin-top: 188px;
@@ -228,6 +228,7 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  text-align: center;
 }
 /*------END MAIN------*/
 
@@ -236,6 +237,10 @@ img {
   background: var(--background-color);
   height: 252px;
   padding-top: 60px;
+}
+.list-adress {
+  display: flex;
+  flex-direction: column;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -255,6 +260,8 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .contacts {
   font-style: normal;
@@ -263,6 +270,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
+  margin-bottom: 9px;
 }
 /*------END FOOTER------*/
 
