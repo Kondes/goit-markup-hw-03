@@ -32,6 +32,14 @@ body {
 img {
   display: block;
 }
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 /*----- END GENERAL-----*/
 
 /*-----HEADER-----*/
@@ -62,12 +70,7 @@ img {
 .list-telephone {
   margin-left: 48px;
 }
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-  align-items: center;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -113,6 +116,11 @@ img {
 .services {
   background: var(--background-color);
 }
+.services .container {
+  text-align: center;
+  height: 600px;
+}
+
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -121,6 +129,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-text-color);
+  width: 696px;
+  margin: 0 auto;
+  padding-top: 200px;
 }
 .button {
   background: var(--accent-color);
@@ -130,6 +141,17 @@ img {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.list-quality:not(:last-child) {
+  margin-right: 30px;
+}
+.list-forms {
+  display: flex;
 }
 
 .quality {
@@ -139,13 +161,23 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  padding-top: 94px;
+  padding-right: 30px;
 }
+
 .quality-inside {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  width: 270px;
+  padding-top: 10px;
+}
+
+.picture-list {
+  display: flex;
+  justify-content: space-between;
 }
 .about-us,
 .team {
@@ -155,8 +187,25 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
+.about-us {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  padding-left: 400px;
+}
 .section-second {
   background: var(--other-color);
+  height: 648px;
+}
+.team {
+  margin-top: 188px;
+  margin-bottom: 50px;
+  padding-left: 450px;
+  padding-top: 34px;
+}
+.list-photo {
+  display: flex;
+  justify-content: space-between;
 }
 
 .team-name {
@@ -165,7 +214,14 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
+.name {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 59px;
+}
+
 .team-profil {
   font-weight: 400;
   font-size: 16px;
@@ -178,6 +234,8 @@ img {
 /*------FOOTER------*/
 .footer {
   background: var(--background-color);
+  height: 252px;
+  padding-top: 60px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
