@@ -127,11 +127,10 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-text-color);
-  width: 696px;
+  width: 660px;
   margin: 0 auto;
   padding-top: 200px;
 }
@@ -154,6 +153,7 @@ img {
 }
 .list-forms {
   display: flex;
+  justify-content: space-between;
 }
 
 .quality {
@@ -164,7 +164,7 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
   padding-top: 94px;
-  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .quality-inside {
@@ -174,7 +174,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   width: 270px;
-  padding-top: 10px;
 }
 
 .picture-list {
@@ -191,19 +190,26 @@ img {
 }
 
 .about-us {
+  text-align: center;
   margin-top: 94px;
   margin-bottom: 50px;
-  padding-left: 400px;
 }
 .section-second {
   background: var(--other-color);
-  padding-bottom: 124px;
+  margin-top: 94px;
+  padding-bottom: 94px;
 }
+
+.photo-border {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team {
-  margin-top: 188px;
+  padding-top: 94px;
+  text-align: center;
   margin-bottom: 50px;
-  padding-left: 450px;
-  padding-top: 34px;
 }
 .list-photo {
   display: flex;
@@ -217,13 +223,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .name {
-  padding-top: 30px;
-  padding-left: 60px;
-  padding-right: 59px;
+  text-align: center;
 }
-
 .team-profil {
   font-weight: 400;
   font-size: 16px;
@@ -231,14 +235,19 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
+  padding-bottom: 30px;
 }
 /*------END MAIN------*/
 
 /*------FOOTER------*/
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer {
   background: var(--background-color);
   height: 252px;
-  padding-top: 60px;
 }
 .list-adress {
   display: flex;
@@ -263,8 +272,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   margin-top: 20px;
-  margin-bottom: 9px;
 }
+
 .contacts {
   font-style: normal;
   font-weight: 400;
@@ -272,7 +281,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
-  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.contacts:not(:last-child) {
+  margin-top: 9px;
 }
 /*------END FOOTER------*/
 
@@ -311,6 +324,8 @@ img {
   margin-bottom: 0;
 }
 .border {
+  width: 370px;
+  height: 404px;
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -330,7 +345,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-top: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   padding-left: 24px;
 }
 
@@ -340,7 +355,7 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-bottom: 30px;
+  padding-bottom: 20px;
   padding-left: 24px;
 }
 
