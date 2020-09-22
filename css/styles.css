@@ -44,9 +44,6 @@ img {
 
 /*-----HEADER-----*/
 
-.header {
-  padding: 24px 0;
-}
 .header .container {
   display: flex;
 }
@@ -85,11 +82,14 @@ img {
   color: var(--logo-color);
 }
 .navigation-list-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-list-link:hover,
@@ -106,21 +106,25 @@ img {
 
 .header-mail,
 .header-tel {
+  display: block;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 /*-----END HEADER-----*/
 
 /*------MAIN------*/
 .services {
   background: var(--background-color);
-}
-.services {
   text-align: center;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title {
@@ -132,7 +136,6 @@ img {
   color: var(--main-text-color);
   width: 660px;
   margin: 0 auto;
-  padding-top: 200px;
 }
 .button {
   background: var(--accent-color);
@@ -148,6 +151,9 @@ img {
   margin-top: 30px;
 }
 
+.pictures-items {
+  padding: 20px 24px 20px 24px;
+}
 .list-quality:not(:last-child) {
   margin-right: 30px;
 }
@@ -164,7 +170,7 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
   padding-top: 94px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .quality-inside {
@@ -176,9 +182,12 @@ img {
   width: 270px;
 }
 
+.job-picture:not(:last-child) {
+  padding-right: 30px;
+}
+
 .picture-list {
   display: flex;
-  justify-content: space-between;
 }
 .about-us,
 .team {
@@ -188,10 +197,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.jobs {
+  padding-top: 94px;
+}
 
 .about-us {
   text-align: center;
-  margin-top: 94px;
+
   margin-bottom: 50px;
 }
 .section-second {
@@ -199,7 +211,9 @@ img {
   margin-top: 94px;
   padding-bottom: 94px;
 }
-
+.photo-border:not(:last-child) {
+  margin-right: 30px;
+}
 .photo-border {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -211,9 +225,9 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .list-photo {
   display: flex;
-  justify-content: space-between;
 }
 
 .team-name {
@@ -222,11 +236,11 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-bottom: 10px;
-  margin-top: 30px;
 }
 .name {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-profil {
   font-weight: 400;
@@ -235,23 +249,20 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
-  padding-bottom: 30px;
+  margin-top: 10px;
 }
 /*------END MAIN------*/
 
 /*------FOOTER------*/
 
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .footer {
   background: var(--background-color);
   height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .list-adress {
-  display: flex;
-  flex-direction: column;
+  margin-top: 20px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -264,6 +275,9 @@ img {
 .footer-logo-second {
   color: var(--main-text-color);
 }
+.navigation-list-link:not(:last-child) {
+  padding-bottom: 9px;
+}
 .address {
   font-style: normal;
   font-weight: 400;
@@ -271,7 +285,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-top: 20px;
 }
 
 .contacts {
@@ -281,24 +294,29 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
-  margin-top: 9px;
 }
 
-.contacts:not(:last-child) {
-  margin-top: 9px;
-}
 /*------END FOOTER------*/
 
 /*----END INDEX.HTML----*/
 
 /*----PORTFOLIO-----*/
 
-/*----MAIN-----*/
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
 
+.first-section {
+  padding-bottom: 94px;
+}
+/*----MAIN-----*/
+.button-cont {
+  padding-top: 94px;
+}
 .all-button {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+
   margin-bottom: 50px;
 }
 .project:not(:last-child) {
@@ -331,16 +349,13 @@ img {
 }
 .border {
   width: 370px;
-  height: 404px;
+
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.footer-second {
-  margin-top: 94px;
-}
 
-.list .container {
+.container .list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -350,9 +365,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding-left: 24px;
 }
 
 .our-projects-type {
@@ -361,8 +373,6 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 
 /*-----END MAIN*/ ;
