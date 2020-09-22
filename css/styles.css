@@ -81,6 +81,7 @@ img {
 .logo-second {
   color: var(--logo-color);
 }
+
 .navigation-list-link {
   display: block;
   font-weight: 500;
@@ -100,6 +101,10 @@ img {
 }
 .current {
   color: var(--accent-color);
+}
+.size-navigation {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-mail,
