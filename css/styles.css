@@ -15,6 +15,7 @@
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -34,7 +35,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
   align-items: center;
@@ -164,6 +165,9 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.middle {
+  padding-top: 94px;
+}
 
 .quality {
   font-weight: 700;
@@ -172,7 +176,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
-  padding-top: 94px;
+
   margin-bottom: 10px;
 }
 
@@ -186,7 +190,7 @@ img {
 }
 
 .job-picture:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .picture-list {
@@ -202,6 +206,7 @@ img {
 }
 .jobs {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us {
@@ -211,7 +216,7 @@ img {
 }
 .section-second {
   background: var(--other-color);
-  margin-top: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .photo-border:not(:last-child) {
@@ -224,7 +229,6 @@ img {
 }
 
 .team {
-  padding-top: 94px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -244,6 +248,8 @@ img {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .team-profil {
   font-weight: 400;
@@ -279,7 +285,7 @@ img {
   color: var(--main-text-color);
 }
 .navigation-list-link:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .address {
   font-style: normal;
@@ -311,11 +317,10 @@ img {
 
 .first-section {
   padding-bottom: 94px;
-}
-/*----MAIN-----*/
-.button-cont {
   padding-top: 94px;
 }
+/*----MAIN-----*/
+
 .all-button {
   display: flex;
   justify-content: center;
@@ -368,6 +373,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
 
 .our-projects-type {
